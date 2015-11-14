@@ -183,16 +183,6 @@ Keys               | Function
   `?`              | Toggle the help list
 
 
-### NeoCompleCache
-Auto completion popups as you type ([more](https://github.com/Shougo/neocomplcache.vim))
-
-Keys                | Function
-------------------- | --------------------
-  `<tab>`           | Select the next auto complete option
-  `<space>`         | Use selected completion and move on
-  `<ESC>`           | Cancel completion (remove selected)
-
-
 ### projector mode
 Toggle 'projector mode': larger font and high contrast colour scheme ([more](https://github.com/AdamWhittingham/projector_mode))
 
@@ -290,6 +280,15 @@ Keys               | Function
   `<space>` `]`    | toggle the sidebar
 
 
+### UltiSnips
+Snippet expantion ([more](https://github.com/SirVer/ultisnips))
+
+Keys                | Function
+------------------- | --------------------
+  `<Enter>`         | If the selection is a snippet, expand the snippetCancel completion (remove selected)
+  `<tab>`           | Move to the next part of the snippet which can be edited
+
+
 ### unimpaired
 Pairs of handy bracket maps ([more](http://www.vim.org/scripts/script.php?script_id=1590))
 
@@ -345,7 +344,7 @@ Add haml, sass and SCSS syntax support ([more](https://github.com/tpope/vim-haml
 Less syntax highlighting ([more](https://github.com/groenewege/vim-less))
 
 
-### vim-ruby
+### vim-ruby
 Ruby support (newer than the version released with vim). ([more](https://github.com/vim-ruby/vim-ruby))
 
 
@@ -370,7 +369,7 @@ Keys               | Function
   `i``r`           | Contact the selection in one scope level
 
 
-### vroom
+### vroom
 A plugin for running your Ruby tests, specs, and features. ([more](http://www.vim.org/scripts/script.php?script_id=3995))
 
 Keys               | Function
@@ -387,6 +386,17 @@ Keys               | Function
 -------------------|--------------------------------------------------------------
   `<space>` `p`    | Swap the last paste for the next item in the yank stack
   `<space>` `P`    | Swap the last paste for the previous item in the yank stack
+
+
+### YouCompleteMe
+Auto completion popups as you type ([more](https://github.com/Valloric/YouCompleteMe))
+
+Keys                | Function
+------------------- | --------------------
+  `<tab>`           | Select the next auto complete option
+  `<space>`         | Use selected completion and move on
+  `<ESC>`           | Cancel completion (remove selected)
+  `<Enter>`         | If the selection is a snippet, expand the snippetCancel completion (remove selected)
 
 
 ### ZoomWin
