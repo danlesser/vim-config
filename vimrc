@@ -378,21 +378,6 @@ let g:UltiSnipsExpandTrigger = "<C-x>"
 let g:UltiSnipsJumpForwardTrigger = "<tab>"
 let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
 
-inoremap <silent> <CR> <C-r>=<SID>expand_or_enter()<CR>
-function! s:expand_or_enter()
-  if pumvisible()
-    return (Ulti_Expand_and_getRes() > 0) ? "" : "\<CR>"
-  else
-    return "\<CR>"
-  endif
-endfunction
-
-let g:ulti_expand_or_jump_res = 0
-function! Ulti_Expand_and_getRes()
-  call UltiSnips#ExpandSnippetOrJump()
-  return g:ulti_expand_or_jump_res
-endfunction"
-
 " ----------------------------------------------
 " Copy file path details to the system clipboard
 " ----------------------------------------------

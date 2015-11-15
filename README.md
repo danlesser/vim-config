@@ -285,7 +285,7 @@ Snippet expantion ([more](https://github.com/SirVer/ultisnips))
 
 Keys                | Function
 ------------------- | --------------------
-  `<Enter>`         | If the selection is a snippet, expand the snippetCancel completion (remove selected)
+  `<Ctrl>``x`       | If the selection is a snippet, expand the snippetCancel completion (remove selected)
   `<tab>`           | Move to the next part of the snippet which can be edited
 
 
@@ -398,7 +398,7 @@ Keys                | Function
   `<tab>`           | Select the next auto complete option
   `<space>`         | Use selected completion and move on
   `<ESC>`           | Cancel completion (remove selected)
-  `<Enter>`         | If the selection is a snippet, expand the snippetCancel completion (remove selected)
+  `<Ctrl>``x`       | If the selection is a snippet, expand the snippetCancel completion (remove selected)
 
 
 ### ZoomWin
