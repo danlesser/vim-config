@@ -232,6 +232,12 @@ nmap <leader>gt :GitGutterToggle<CR>
 "  <Leader>gh highlight changed lines
 nmap <leader>gh :GitGutterLineHighlightsToggle<CR>
 
+" <Leager>ga to add the current git hunk to git staging
+nmap <Leader>ga <Plug>GitGutterStageHunk
+
+" <Leader>gu to undo the current changed hunk
+nmap <Leader>gu <Plug>GitGutterRevertHunk
+
 "  <Leader>h to dismiss search result highlighting until next search or press of 'n'
 :noremap <silent> <leader>h :noh<CR>
 

@@ -322,6 +322,8 @@ Keys               | Function
   `<space>` `G`    | Skip to the previous changed chunk
   `<space>` `gt`   | Toggle the git change gutter
   `<space>` `gh`   | Highlight all changed lines
+  `<space>` `ga`   | Add this hunk to the stage for the next commit
+  `<space>` `gu`   | Undo this hunk (revert it to whatever is in git)
 
 
 ### vim-indent-guidelines
