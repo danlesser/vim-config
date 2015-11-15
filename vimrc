@@ -51,6 +51,9 @@ Plug 'maxbrunsfeld/vim-yankstack'
 Plug 'Valloric/YouCompleteMe', { 'do': './install.py' }
 Plug 'SirVer/ultisnips'
 Plug 'ervandew/supertab'
+Plug 'raimondi/delimitMate'
+
+" Snippets Libraries
 Plug 'honza/vim-snippets'
 Plug 'justinj/vim-react-snippets'
 
