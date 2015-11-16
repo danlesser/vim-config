@@ -58,6 +58,19 @@ When typing a word, Autocompletion examples will pop up.
 If the completion is a snippet (a short template with sections to fill out), you can press `<ctrl x>` to insert it and then use `<tab>` to fill in the template slots.
 (ProTip: Map you Caps Lock to <ctrl> for more comfortable completions)
 
+## Troubleshooting
+#### YouCompleteMe needs to be compiled
+Errors about YouCompleteMe needing compiling are usually because the automatic compilation has failed for some reason.
+You can manually trigger the compilation with the following:
+
+```
+cd ~/.vim/plugged/YouCompleteMe/
+./install.sh
+```
+
+If this succeeds, then great, you're good to go!
+Otherwise, it's off to the official [YouCompleteMe docs](https://github.com/Valloric/YouCompleteMe) to figure out what your machine needs to compile it.
+
 ## Plugins - all the goodies!
 See the plugins' web pages for more information. The keybindings listed are mostly
 just those defined or overridden locally, not the ones provided by default.
