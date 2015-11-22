@@ -81,8 +81,9 @@ Plug 'groenewege/vim-less',            {'for': 'less'}
 Plug 'othree/html5.vim',               {'for': 'html'}
 
 " Javascript
-Plug 'pangloss/vim-javascript',        {'for': 'javascript'}
+Plug 'othree/yajs.vim',                {'for': 'javascript'}
 Plug 'mxw/vim-jsx',                    {'for': 'javascript.jsx'}
+Plug 'moll/vim-node'
 
 if filereadable(expand("~/.vim.plugins.local"))
   source ~/.vim.plugins.local
