@@ -132,6 +132,7 @@ set ruler           " Ruler on
 set scrolloff=3     " More context around cursor
 set sessionoptions=blank,buffers,curdir,folds,help,resize,tabpages,winsize
 set shiftwidth=2
+set shortmess+=A
 set smarttab
 set statusline=%<%f\ %h%m%r%=%-20.(line=%l\ of\ %L,col=%c%V%)\%h%m%r%=%-40(,%n%Y%)\%P%#warningmsg#%{SyntasticStatuslineFlag()}%*
 set tabstop=2
