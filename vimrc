@@ -14,6 +14,7 @@ Plug 'godlygeek/tabular'
 Plug 'gregsexton/MatchTag'
 Plug 'nathanaelkane/vim-indent-guides'
 Plug 'regedarek/ZoomWin'
+Plug 'mhinz/vim-startify'
 Plug 'sjl/gundo.vim'
 Plug 'tpope/vim-abolish'
 Plug 'tpope/vim-projectionist'
@@ -401,6 +402,46 @@ au BufRead,BufNewFile *.palette set filetype=ruby
 " ----------------------------------------------
 " Setup Look & Feel
 " ----------------------------------------------
+
+" Setup vim-startify's start screen
+
+let g:startify_change_to_vcs_root = 1
+
+let g:startify_custom_header = [
+      \ '   __      __            ',
+      \ '   \ \    / (_)          ',
+      \ '    \ \  / / _ _ __ ___  ',
+      \ '     \ \/ / | | `_ ` _ \ ',
+      \ '      \  /  | | | | | | |',
+      \ '       \/   |_|_| |_| |_|',
+      \ '                         ',
+      \ ]
+let g:startify_custom_footer = [
+      \'', 
+      \"   Adam's Vim Config: https://github.com/adamwhittingham/vim-config",
+      \"   Vim is charityware. Please read ':help uganda'",
+      \]
+
+let g:startify_list_order = [
+      \ ['', '   Recent (dir):'],
+      \ 'dir',
+      \ ['', '   Recent:'],
+      \ 'files',
+      \ ['', '   Bookmarks:'],
+      \ 'bookmarks',
+      \ ['', '   Sessions:'],
+      \ 'sessions',
+      \ ]
+
+let g:startify_skiplist = [
+      \ 'COMMIT_EDITMSG',
+      \ ]
+
+let g:startify_bookmarks = [
+      \ { 'v': '~/.vim/vimrc' },
+      \ { 'z': '~/.zshrc' },
+      \ { 't': '/tmp' },
+      \ ]
 
 " Setup the projector toggle plugin
 let g:default_colorscheme = 'adCode'

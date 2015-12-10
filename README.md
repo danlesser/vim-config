@@ -368,6 +368,9 @@ Refactoring tool for Ruby in vim! ([more](https://github.com/ecomba/vim-ruby-ref
 See [relish documentation](http://relishapp.com/despo/vim-ruby-refactoring) for examples.
 
 
+### vim-startify
+Shows the nifty start window with links to recently used files. ([more](https://github.com/mhinz/vim-startify))
+
 ### vim-textobj-rubyblock
 Allow Ruby-aware text manipulation ([more](https://github.com/nelstrom/vim-textobj-rubyblock))
 
