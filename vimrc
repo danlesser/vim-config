@@ -409,6 +409,7 @@ au BufNewFile,BufRead *.hl7 set filetype=hl7
 " Setup vim-startify's start screen
 
 let g:startify_change_to_vcs_root = 1
+let g:startify_files_number = 6
 
 let g:startify_custom_header = [
       \ '   __      __            ',
