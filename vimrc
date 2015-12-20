@@ -65,6 +65,7 @@ Plug 'plasticboy/vim-markdown',        {'for': 'markdown'}
 Plug 'elixir-lang/vim-elixir'
 Plug 'chase/vim-ansible-yaml'
 Plug 'kien/rainbow_parentheses.vim'
+Plug 'niquola/vim-hl7'
 
 " Ruby
 Plug 'vim-ruby/vim-ruby'
@@ -399,6 +400,7 @@ nmap <leader>cr :CopyRelativePathAndLine<CR>
 au BufRead,BufNewFile *.scss set filetype=scss.css
 au BufRead,BufNewFile *.jade.html set filetype=jade
 au BufRead,BufNewFile *.palette set filetype=ruby
+au BufNewFile,BufRead *.hl7 set filetype=hl7
 
 " ----------------------------------------------
 " Setup Look & Feel
