@@ -135,6 +135,7 @@ set sessionoptions=blank,buffers,curdir,folds,help,resize,tabpages,winsize
 set shiftwidth=2
 set shortmess+=A
 set smarttab
+set spelllang=en_gb
 set statusline=%<%f\ %h%m%r%=%-20.(line=%l\ of\ %L,col=%c%V%)\%h%m%r%=%-40(,%n%Y%)\%P%#warningmsg#%{SyntasticStatuslineFlag()}%*
 set tabstop=2
 set timeoutlen=500
@@ -271,7 +272,7 @@ nmap <silent> <leader>s :SplitjoinSplit<cr>
 nmap <silent> <leader>S :SplitjoinJoin<cr>
 
 "  <Leader>sp to toggle spelling highlighting
-nmap <silent> <Leader>sp :setlocal spell! spelllang=en_gb<CR>
+nmap <silent> <Leader>sp :setlocal spell!<CR>
 
 "  <Leader>sw to strip whitespace off the ends
 nmap <silent> <Leader>sw :call StripTrailingWhitespace()<CR>
@@ -696,8 +697,9 @@ let g:colorizer_auto_filetype='css,haml,html,less,scss,vim'
 " Make colorizer play nicely with 2html
 let g:colorizer_syntax = 1
 
-" Enable wrapping when editing text documents (eg Markdown)
+" Enable spell-check & wrapping when editing text documents (eg Markdown)
 autocmd BufNewFile,BufRead *.md :setlocal wrap
+autocmd BufNewFile,BufRead *.md :setlocal spell
 
 " Setup relative number toggle on Ctrl+n
 function! NumberToggle()
