@@ -425,7 +425,23 @@ Keys               | Function
   `<space>` `z`    | Zoom
 
 
-## Other Keybindings
+## Window split controls
+Keys               | Function
+-------------------|-----------------------------------------------------
+  `space` `w` `s`  | Split the current window vertically
+  `space` `w` `S`  | Split the current window horizontally
+  `space` `w` `w`  | Jump into the next split
+  `space` `w` `+`  | Make current horizontal split larger
+  `space` `w` `-`  | Make current horizontal split smaller
+  `space` `w` `>`  | Make current vertical split larger
+  `space` `w` `<`  | Make current vertical split smaller
+  `space` `z`      | Zoom (full-window) the current split
+  `ctrl` `h`       | Move to the next split to the left
+  `ctrl` `j`       | Move to the next split to down
+  `ctrl` `k`       | Move to the next split to up
+  `ctrl` `l`       | Move to the next split to the right
+
+## Misc Keybindings
 Keys               | Function
 -------------------|-----------------------------------------------------
   `space` `space`  | Toggle between the previously opened buffer
@@ -437,9 +453,6 @@ Keys               | Function
   `space` `rt`     | Run `ctags -R .`
   `space` `sp`     | Show/hide spelling errors
   `space` `sw`     | Strip trailing whitespace
-  `space` `w` `s`  | Split the current window vertically
-  `space` `w` `S`  | Split the current window horizontally
-  `space` `w` `w`  | Jump into the next split
   `space` `$`      | Toggle line wrapping
   `U`              | Redo (easier than C-r but replaces default 'undo last line')
   `:Lorem`         | Generate 'lorem ipsum' text

@@ -329,20 +329,16 @@ iabbrev </ </<C-X><C-O>
 map <leader>w <c-w>w
 map <leader>ws :vsplit<CR>
 map <leader>wS :split<CR>
+nnoremap <silent> <Leader>w+ :exe "resize " . (winheight(0) * 3/2)<CR>
+nnoremap <silent> <Leader>w- :exe "resize " . (winheight(0) * 2/3)<CR>
+nnoremap <silent> <Leader>w> :exe "vertical resize " . (winwidth(0) * 3/2)<CR>
+nnoremap <silent> <Leader>w< :exe "vertical resize " . (winwidth(0) * 2/3)<CR>
 
 " C-w s to vertical split
 map <C-w>s :vsplit<CR>
 
 " C-w S to horizontal split
 map <C-w>S :split<CR>
-
-" C-A-h and C-A-l to resize vertical split
-map <C-A-h> :vertical resize -7<CR>
-map <C-A-l> :vertical resize +7<CR>
-
-" C-A-j and C-A-k to resize horizontal split
-map <C-A-j> :resize -5<CR>
-map <C-A-k> :resize +5<CR>
 
 " C-H and C-L to jump left and right between splits
 map <C-h> <C-w>h
